@@ -1,0 +1,76 @@
+body
+{
+    height: 80vh;
+    width: 100vh;
+    background-color: #eae7e7;
+}
+
+#todo-containner
+{
+    position: absolute;
+    left: 90vh;
+    top: 25vh;
+}
+
+#first
+{
+    position: absolute;
+    left: 5vh;
+    top: 30vh;
+}
+
+.info-list
+{
+    position: absolute;
+    top: 35vh;
+    font-size: 1.5rem;
+}
+
+.tittle
+{
+    font-size: 3rem;
+    color: rgb(170, 7, 7);
+}
+
+.tittle:hover
+{
+    color: rgb(246, 0, 0);
+    cursor: default;
+}
+
+.input-list
+{
+    border: none;
+    height: 3.5vh;
+    width: 30vh;
+    position: absolute;
+    left: -4vh;
+    border-radius: 5%;
+}
+
+button
+{
+    border: none;
+    height: 3.5vh;
+    width: 5vh;
+    background: none;
+    background-color: rgb(230, 0, 0);
+    position: absolute;
+    left: 21.5vh;
+    font-size: 2rem;
+    text-align:center;
+    cursor: pointer;
+}
+
+.check,.remove
+{
+    font-size: 1rem;
+    color: rgb(0, 0, 0);;
+}
+
+.rules
+{
+    display: flex;
+    flex-direction: column;
+    transform: translate(2vh,0);
+}
